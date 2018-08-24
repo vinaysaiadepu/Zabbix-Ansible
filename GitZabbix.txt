@@ -1,0 +1,16 @@
+1. Create Local DIR 
+Eg: GitZabbix
+2. Git Initialisation
+
+# git init
+
+3. Adding git repo url to local
+# git remote add origin "https://github.com/vinaysaiadepu/Zabbix-Ansible.git"
+
+4. Pulling git repo to local
+#  git pull origin master
+
+5. check git status once
+# git status
+
+6. 
