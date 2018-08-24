@@ -13,4 +13,21 @@ Eg: GitZabbix
 5. check git status once
 # git status
 
-6. 
+6. Now adding the edited file to local repo
+# git add Git.txt
+# git add -a      // this denotes adding all the files to git
+
+
+7. Commiting the file changes to git local repo 
+#  git commit -m "Adding Git config step file to Git Repo"
+
+8. Generate ssh-key to access git repo from local machine
+#  ssh-keygen
+#  cat /c/Users/vinay/.ssh/id_rsa.pub
+
+9. Now check the ssh connection
+#  ssh -T git@github.com  (now check the ssh connection)
+
+10. Push the file to git repo
+#  git push origin master
+
